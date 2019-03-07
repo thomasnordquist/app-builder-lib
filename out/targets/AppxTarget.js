@@ -390,7 +390,7 @@ function lockScreenTag(userAssets) {
 }
 
 function defaultTileTag(userAssets) {
-  const defaultTiles = ["<uap:DefaultTile", 'Wide310x150Logo="assets\\Wide310x150Logo.png"'];
+  const defaultTiles = ["<uap:DefaultTile", 'ShowName="allLogos"', 'Wide310x150Logo="assets\\Wide310x150Logo.png"'];
 
   if (isDefaultAssetIncluded(userAssets, "LargeTile.png")) {
     defaultTiles.push('Square310x310Logo="assets\\LargeTile.png"');
